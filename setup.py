@@ -49,7 +49,7 @@ long_description = '{}\n{}'.format(read('README.rst'), read('CHANGES.txt'))
 hard = ['gsw', 'matplotlib', 'numpy', 'seawater']
 soft = dict(full=['cartopy' 'iris', 'netcdf4', 'pandas', 'scipy'])
 packages = ['oceans', 'oceans/RPSstuff', 'oceans/colormaps', 'oceans/datasets',
-            'oceans/ocfis', 'oceans/plotting', 'oceans/sw_extras']
+            'oceans/ocfis', 'oceans/plotting', 'oceans/sw_extras', 'oceans/filters']
 
 setup(name='oceans',
       version=extract_version(),
